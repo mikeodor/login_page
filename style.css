@@ -1,0 +1,59 @@
+body{
+    background: grey;
+}
+.card{
+    background-color: white;
+    width:50%;
+    /* height: 50%; */
+   margin: 5% auto auto auto
+}
+.title{
+    text-align: center;
+    padding-top:10px;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+form{
+    text-align: center;
+}
+.input input{
+    width:40%;
+    height:50px;
+    margin: 10px;
+    border:none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+
+input[type=submit]{
+background-color: rgb(122, 187, 239);
+color: white;
+
+width:40%;
+height:50px;
+border: none;
+margin: 15px 0 30px 0;
+cursor: pointer;
+
+} 
+.notamember{
+    text-align: center;
+    border-top:1px solid black ;
+    background-color: #eeedf1;
+    /* margin-top: 30px;
+    background-color: aqua;
+  border-top: 2px solid black;*/
+  padding: 10px;
+  font-size: 20px;
+}
+.notamember a{
+    color: rgb(122, 187, 239);
+    text-decoration: none;
+}
+.notamember a:hover{
+    color: rgb(96, 228, 213);
+    text-decoration: none;
+}
